@@ -848,18 +848,79 @@ def reward_function(response, target_keywords):
                 <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 rounded-2xl">
                     <h3 className="font-bold text-lg mb-2">Tools</h3>
                     <ul className="text-sm space-y-2 text-slate-300">
-                        <li>• TRL (HuggingFace)</li>
-                        <li>• Axolotl</li>
-                        <li>• DeepSpeed Chat</li>
+                        <li>
+                          <a 
+                            href="https://huggingface.co/docs/trl/en/index" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="white-blue-600 hover:underline"
+                          >
+                            • TRL (HuggingFace)
+                          </a>
+                        </li>
+                        <li>
+                          <a 
+                            href="https://docs.axolotl.ai/docs/rlhf.html" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="white-blue-600 hover:underline"
+                          >
+                            • Axolotl
+                          </a>
+                        </li>
+                        <li>
+                          <a 
+                            href="https://github.com/deepspeedai/DeepSpeed/tree/master" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="white-blue-600 hover:underline"
+                          >
+                            • DeepSpeed Chat
+                          </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
                     <h3 className="font-bold text-lg mb-2 text-slate-800">Datasets</h3>
                     <ul className="text-sm space-y-2 text-slate-600">
-                        <li>• HH-RLHF (Anthropic)</li>
-                        <li>• UltraChat</li>
-                        <li>• OpenAssistant</li>
+                        <li>
+                          <a 
+                            href="https://huggingface.co/datasets/Anthropic/hh-rlhf" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="white-blue-600 hover:underline"
+                          >
+                            • HH-RLHF (Anthropic)
+                          </a>
+                        </li>
+                        <li>
+                          <a 
+                            href="https://github.com/thunlp/UltraChat" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="white-blue-600 hover:underline"
+                          >
+                            • UltraChat
+                          </a>
+                        </li>
+                        <li>
+                          <a 
+                            href="https://github.com/LAION-AI/Open-Assistant" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="white-blue-600 hover:underline"
+                          >
+                            • OpenAssistant
+                          </a>
+                        </li>
                     </ul>
+                </div>
+             </div>
+             <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <div className="text-md font-mono text-slate-600 space-y-4"><b>Possible Home Work!</b> <br/></div>
+                <div className="text-sm font-mono text-slate-600 space-y-2">
+                    <div className="flex gap-2"><span className="text-slate-400">1.</span> Access any of the projects and assess the RLHF design.</div>
+                    <div className="flex gap-2"><span className="text-slate-400">2.</span> Contribute to the project! (2 extra credits)</div>
                 </div>
              </div>
         </div>
