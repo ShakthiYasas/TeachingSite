@@ -318,7 +318,7 @@ def reward_function(response, target_keywords):
           <div className="relative group">
             <div className="absolute inset-0 bg-blue-500 blur-3xl opacity-20 rounded-full animate-pulse group-hover:opacity-40 transition-opacity duration-500"></div>
             <img 
-              src="/cover.png" 
+              src="/TeachingSite/cover.png" 
               alt="AI Robot"
               className="relative w-32 h-32 object-contain transform hover:scale-110 transition-transform duration-500 drop-shadow-xl" 
             />
@@ -400,7 +400,7 @@ def reward_function(response, target_keywords):
 
           <div className="bg-white border border-slate-200 shadow-lg rounded-2xl p-8 hover:shadow-xl transition-shadow">
             <img 
-              src="/mdp.png" 
+              src="/TeachingSite/mdp.png" 
               alt="MDP diagram" 
               className="w-full drop-shadow-sm"
             />
