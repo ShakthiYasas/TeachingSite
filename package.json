@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ShakthiYasas.github.io/TeachingSite", 
+  "homepage": "https://ShakthiYasas.github.io/TeachingSite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d vite build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/ShakthiYasas/TeachingSite.git"
   },
   "dependencies": {
     "lucide-react": "^0.559.0",
